@@ -1,0 +1,9 @@
+<ul class="fa-ul">
+  <li (click)="onClick()"><span class="fa-li" ><i class="far" [ngClass]="{'fa-check-square' : selected, 'fa-square': !selected}"></i></span>be used to</li>
+  <li><span class="fa-li" (click)="onClick()"><i class="far" [ngClass]="{'fa-check-square' : selected, 'fa-square': !selected}"></i></span>in lists</li>
+  <li><span class="fa-li" (click)="onClick()"><i class="far" [ngClass]="{'fa-check-square' : selected, 'fa-square': !selected}"></i></span>in lists</li>
+  <li><span class="fa-li" (click)="onClick()"><i class="far" [ngClass]="{'fa-check-square' : selected, 'fa-square': !selected}"></i></span>be used to</li>
+  <li><span class="fa-li" (click)="onClick()"><i class="far" [ngClass]="{'fa-check-square' : selected, 'fa-square': !selected}"></i></span>in lists</li>
+  <li>{{selected}}</li>
+</ul>
+<span [ngClass]="{'red' : selected, 'blue': !selected}" (click)="onClick()">TEST SPAN</span>
