@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card-header" id="headingOne">
+    <h5 class="mb-0">
+      <button [attr.data-target]="'#demo' + tar" class="btn btn-link" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
+        {{header}}
+      </button>
+    </h5>
+  </div>
+  <div id="{{'demo'+tar}}" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div class="card-body">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>

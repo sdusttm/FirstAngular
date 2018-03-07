@@ -9,6 +9,7 @@ import { AuthorService } from './author.service';
 import { StarComponent } from './star/star.component';
 import { TitleCasePipe } from './titlecase.pipe';
 import { TitleInputComponent } from './title-input/title-input.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { TitleInputComponent } from './title-input/title-input.component';
     AuthorsComponent,
     StarComponent,
     TitleCasePipe,
-    TitleInputComponent
+    TitleInputComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,

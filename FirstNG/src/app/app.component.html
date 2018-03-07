@@ -8,3 +8,6 @@
 <!-- <app-authors></app-authors> -->
 <!-- <app-star></app-star> -->
 <app-title-input></app-title-input>
+<div *ngFor="let item of itemList; index as i">
+  <app-zippy [title]="item.title" [target]="i">{{item.body}}</app-zippy>
+</div>
